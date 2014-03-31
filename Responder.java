@@ -20,14 +20,13 @@ public class Responder
     {
         aleatorio = new Random();
         responses = new ArrayList();
-        respuestaPregunta = new HashMap<String, String>();
+        respuestaPregunta = new HashMap<>();
         
         responses.add("Response 1");
         responses.add("Response 2");
         responses.add("Response 3");
         responses.add("Response 4");
         responses.add("Response 5");
-        
         respuestaPregunta.put("servicio", "Nuestro software ofrece diversos servicios.");
         respuestaPregunta.put("plataformas", "Está diseñado para diversas plataformas.");
         respuestaPregunta.put("fallos", "Estamos solucionando los problemas, en un rato el servicio funcionará con normalidad.");
